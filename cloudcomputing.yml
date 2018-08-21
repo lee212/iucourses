@@ -1,0 +1,62 @@
+---
+
+title: Cloud Computing
+semester: spring 2017
+course_number: B534
+
+materials:
+  - topic: Introduction to Cloud Computing for Data intensive Sciences
+    source: https://drive.google.com/file/d/0B88HKpainTSfN05qc0ZKdGk3UFk/view?usp=sharing
+    type: lecture
+    media: video
+    length: 00:13:13
+    section: Cloud Computing Fundamentals
+    unit: 1
+    part: 1
+    chapter: 1.1
+  - topic: Introduction to Cloud Computing Fundamentals
+    source: https://drive.google.com/file/d/0B88HKpainTSfSXpXcjVEUmhyTnc/view?usp=sharing
+    type: lecture
+    media: video
+    length: 00:08:31
+    section: Cloud Computing Fundamentals
+    unit: 1
+    part: 2
+    chapter: 1.1
+  - topic: Data center Model
+    source: https://drive.google.com/file/d/0B88HKpainTSfTGJKNnAtZzdlS3c/view?usp=sharing
+    type: lecture
+    media: video
+    length: 00:08:08
+    section: Cloud Computing Fundamentals
+    unit: 1
+    part: 3
+    chapter: 1.1
+  - topic: Data Intensive Science
+    source: https://drive.google.com/file/d/0B88HKpainTSfUU82eHNsRXVRN1k/view?usp=sharing
+    type: lecture
+    media: video
+    length: 00:02:44
+    section: Cloud Computing Fundamentals
+    unit: 1
+    part: 4
+    chapter: 1.1
+  - topic: IaaS, PaaS, SaaS
+    source: https://drive.google.com/open?id=0B88HKpainTSfVjVvczI0TWVCbDQ
+    type: lecture
+    media: video
+    length: 00:10:17
+    section: Cloud Computing Fundamentals
+    unit: 1
+    part: 5
+    chapter: 1.1
+  - topic: Cloud Computing Challenges
+    source: https://drive.google.com/file/d/0B88HKpainTSfTHdiaktfaUpnRjQ/view?usp=sharing
+    type: lecture
+    media: video
+    length: 00:05:27
+    section: Cloud Computing Fundamentals
+    unit: 1
+    part: 6
+    chapter: 1.1
+
