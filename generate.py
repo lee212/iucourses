@@ -53,17 +53,23 @@ class generateRST(object):
         nbody = ""
         for material in materials:
             mbody = ""
-            for header in self.table_header:
-                if header in material:
-                    val = material[header]
-                else:
-                    val = ""
-                if header == "topic":
-                    val = "**" + val.title() + "**"
-                elif header == "source":
+            try:
+                for header in self.table_header:
+                    if header in material:
+                        val = material[header]
+                    else:
+                        val = ""
                     if val[:4] == "http":
                         val = "`Link <{}>`_".format(val)
-                mbody += self.space + "  - {}\n".format(val)
+                    if header == "topic":
+                        val = "**" + val.title() + "**"
+                    elif header == "video":
+                        val = val.replace("Link", "Play", 4)
+                    elif header == "slide":
+                        val = val.replace("Link", "Slide", 4)
+                    mbody += self.space + "  - {}\n".format(val)
+            except:
+                continue
             nbody += self.space + "*" + mbody[len(self.space) + 1:]
         return nbody
 
@@ -72,6 +78,6 @@ if __name__ == "__main__":
     args = rstgen.parse_argument()
     rstgen.load_yaml()
     rstgen.gen_table(title="Cloud Computing", 
-            header=["topic", "source", "length", "type", "chapter", "part"], 
+            header=["topic", "video", "slide", "length", "type", "chapter", "part"], 
             options = { "widths": "30 10 10 10 10 10" })
 

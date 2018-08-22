@@ -44,4 +44,28 @@
      - lecture
      - 1.1
      - 6
+   * - **Cloud Platform Architecture Over Virtualized Data Centers 1**
+     - `Link <https://drive.google.com/open?id=0B88HKpainTSfSEc5eHhkNzlKUFU>`_
+     - 00:07:13
+     - lecture
+     - 1.2
+     - 1
+   * - **Cloud Platform Architecture Over Virtualized Data Centers 2**
+     - `Link <https://drive.google.com/open?id=0B88HKpainTSfaHlKaGNKZkRmOXM>`_
+     - 00:09:08
+     - lecture
+     - 1.2
+     - None
+   * - **Cloud Platform Architecture Over Virtualized Data Centers 3**
+     - `Link <https://drive.google.com/open?id=0B88HKpainTSfX1h4SjhxZkRZdzA>`_
+     - 00:07:49
+     - lecture
+     - 1.2
+     - None
+   * - **Cloud Platform Architecture Over Virtualized Data Centers 4**
+     - `Link <https://drive.google.com/open?id=0B88HKpainTSfcW1GOEZsZ2xuSlk>`_
+     - 00:05:10
+     - lecture
+     - 1.2
+     - None
 

@@ -6,57 +6,230 @@ course_number: B534
 
 materials:
   - topic: Introduction to Cloud Computing for Data intensive Sciences
-    source: https://drive.google.com/file/d/0B88HKpainTSfN05qc0ZKdGk3UFk/view?usp=sharing
+    video: https://drive.google.com/file/d/0B88HKpainTSfN05qc0ZKdGk3UFk/view?usp=sharing
     type: lecture
-    media: video
+    slide: 
     length: 00:13:13
     section: Cloud Computing Fundamentals
     unit: 1
     part: 1
     chapter: 1.1
   - topic: Introduction to Cloud Computing Fundamentals
-    source: https://drive.google.com/file/d/0B88HKpainTSfSXpXcjVEUmhyTnc/view?usp=sharing
+    video: https://drive.google.com/file/d/0B88HKpainTSfSXpXcjVEUmhyTnc/view?usp=sharing
     type: lecture
-    media: video
+    slide:
     length: 00:08:31
     section: Cloud Computing Fundamentals
     unit: 1
     part: 2
     chapter: 1.1
   - topic: Data center Model
-    source: https://drive.google.com/file/d/0B88HKpainTSfTGJKNnAtZzdlS3c/view?usp=sharing
+    video: https://drive.google.com/file/d/0B88HKpainTSfTGJKNnAtZzdlS3c/view?usp=sharing
     type: lecture
-    media: video
+    slide:
     length: 00:08:08
     section: Cloud Computing Fundamentals
     unit: 1
     part: 3
     chapter: 1.1
   - topic: Data Intensive Science
-    source: https://drive.google.com/file/d/0B88HKpainTSfUU82eHNsRXVRN1k/view?usp=sharing
+    video: https://drive.google.com/file/d/0B88HKpainTSfUU82eHNsRXVRN1k/view?usp=sharing
     type: lecture
-    media: video
+    slide:
     length: 00:02:44
     section: Cloud Computing Fundamentals
     unit: 1
     part: 4
     chapter: 1.1
   - topic: IaaS, PaaS, SaaS
-    source: https://drive.google.com/open?id=0B88HKpainTSfVjVvczI0TWVCbDQ
+    video: https://drive.google.com/open?id=0B88HKpainTSfVjVvczI0TWVCbDQ
     type: lecture
-    media: video
+    slide:
     length: 00:10:17
     section: Cloud Computing Fundamentals
     unit: 1
     part: 5
     chapter: 1.1
   - topic: Cloud Computing Challenges
-    source: https://drive.google.com/file/d/0B88HKpainTSfTHdiaktfaUpnRjQ/view?usp=sharing
+    video: https://drive.google.com/file/d/0B88HKpainTSfTHdiaktfaUpnRjQ/view?usp=sharing
     type: lecture
-    media: video
+    slide:
     length: 00:05:27
     section: Cloud Computing Fundamentals
     unit: 1
     part: 6
     chapter: 1.1
+
+  - topic: Cloud Platform Architecture over Virtualized Data Centers 1
+    video: https://drive.google.com/open?id=0B88HKpainTSfSEc5eHhkNzlKUFU
+    type: lecture
+    slide:
+    length: 00:07:13
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 1
+    chapter: 1.2
+  - topic: Cloud Platform Architecture over Virtualized Data Centers 2
+    video: https://drive.google.com/open?id=0B88HKpainTSfaHlKaGNKZkRmOXM
+    type: lecture
+    slide:
+    length: 00:09:08
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 2
+    chapter: 1.2
+  - topic: Cloud Platform Architecture over Virtualized Data Centers 3
+    video: https://drive.google.com/open?id=0B88HKpainTSfX1h4SjhxZkRZdzA
+    type: lecture
+    slide:
+    length: 00:07:49
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 3
+    chapter: 1.2
+  - topic: Cloud Platform Architecture over Virtualized Data Centers 4
+    video: https://drive.google.com/open?id=0B88HKpainTSfcW1GOEZsZ2xuSlk
+    type: lecture
+    slide:
+    length: 00:05:10
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 4
+    chapter: 1.2
+  - topic: Virtual Machines and Virtualization of Clusters and Datacenters
+    video: https://drive.google.com/open?id=0B88HKpainTSfZ1NDTld6bEhHRDg
+    type: lecture
+    slide:
+    length: 00:10:16
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 5
+    chapter: 1.2
+  - topic: Implementation Levels of Virtualization
+    video: https://drive.google.com/open?id=0B88HKpainTSfeDhXVGVMdkxRdVE
+    type: lecture
+    slide:
+    length: 00:07:57
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 6
+    chapter: 1.2
+  - topic: Virtualization Structures, Tools and Mechanisms
+    video: https://drive.google.com/open?id=0B88HKpainTSfMEhVLVFTSF9MTlk
+    type: lecture
+    slide:
+    length: 00:07:32
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 7
+    chapter: 1.2
+  - topic: Virtualization of CPU, Memory, and I/O Devices
+    video: https://drive.google.com/open?id=0B88HKpainTSfeTdIZngtMkhiZnc
+    type: lecture
+    slide:
+    length: 00:06:41
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 8
+    chapter: 1.2
+  - topic: Virtual Clusters and Revideo Management
+    video: https://drive.google.com/open?id=0B88HKpainTSfMHE1R3E4R0xrZTQ
+    type: lecture
+    slide:
+    length: 00:05:07
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 9
+    chapter: 1.2
+  - topic: Virtualization for Datacenter Automation
+    video: https://drive.google.com/open?id=0B88HKpainTSfWHduSVFjQzgzT3c
+    type: lecture
+    slide:
+    length: 00:03:29
+    section: How to Run VMs (IaaS)
+    unit: 2
+    part: 10
+    chapter: 1.2
+
+  - topic: Apache Data Analysis Open Stack
+    video: https://drive.google.com/open?id=0B88HKpainTSfZFZzWjZoQ1NVR3M
+    type: lecture
+    slide:
+    length: 00:12:01
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 1
+    chapter: 1.2
+  - topic: MapReduce
+    video: https://drive.google.com/open?id=0B88HKpainTSfVkN2a2dLbGw0MEk
+    type: lecture
+    slide:
+    length: 00:09:07
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 2
+    chapter: 1.2
+  - topic: Hadoop Framework
+    video: https://drive.google.com/open?id=0B88HKpainTSfZGJVb3IzMGNGXzA
+    type: lecture
+    slide:
+    length: 00:08:32
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 3
+    chapter: 1.2
+  - topic: Hadoop Tasks
+    video: https://drive.google.com/open?id=0B88HKpainTSfNDYwWlM0eTR3NTA
+    type: lecture
+    slide:
+    length: 00:11:01
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 4
+    chapter: 1.2
+  - topic: Hadoop: Fault Tolerance
+    video: https://drive.google.com/open?id=0B88HKpainTSfUXZIOTA4ckUxdU0
+    type: lecture
+    slide:
+    length: 00:02:45
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 5
+    chapter: 1.2
+  - topic: Programming on a Computer Cluster
+    video: https://drive.google.com/open?id=0B88HKpainTSfaWktTjJTM0dyMTg
+    type: lecture
+    slide:
+    length: 00:06:01
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 6
+    chapter: 1.2
+  - topic: How Hadoop Runs on a MapReduce Job
+    video: https://drive.google.com/open?id=0B88HKpainTSfSHZSOHhEVnBvLVE
+    type: lecture
+    slide:
+    length: 00:09:25
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 7
+    chapter: 1.2
+  - topic: Hadoop: Literature Review
+    video: https://drive.google.com/open?id=0B88HKpainTSfcVdHYnFFbjNvWlE
+    type: lecture
+    slide:
+    length: 00:09:43
+    section: How to Run MapReduce (PaaS)
+    unit: 3
+    part: 8
+    chapter: 1.2
+  - topic:
+    video:
+    type: lecture
+    slide:
+    length:
+    section: How to Run VMs (IaaS)
+    unit:
+    part: 
+    chapter: 1.2
 
