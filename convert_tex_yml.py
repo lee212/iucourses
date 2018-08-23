@@ -17,6 +17,7 @@ class convertLatex(object):
         parser = argparse.ArgumentParser("convert latex elements to yaml")
         parser.add_argument("-f", dest="fname", help="filename of latex")
         parser.add_argument("-t", dest="title", help="title of the chapter")
+        parser.add_argument("-T", dest="type", help="lecture|assignment")
         args = parser.parse_args()
         self.arg_parser = parser
         self.args = args
@@ -46,7 +47,8 @@ class convertLatex(object):
             if row[0] == "video":
                 entry = { "media": [row_dict],
                         "section": self.args.title,
-                        "topic": row_dict['topic'] }
+                        "topic": row_dict['topic'],
+                        "type": self.args.type}
                 rid += 1
             else:
                 entry['media'].append(row_dict)

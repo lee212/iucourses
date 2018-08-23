@@ -15,6 +15,7 @@ materials:
       type: ppt
     section: IaaS
     topic: Course Expectations
+    type: lecture
   1:
     media:
     - length: 00:10:16
@@ -31,6 +32,7 @@ materials:
       type: ppt
     section: IaaS
     topic: Growth of Virtual Machines
+    type: lecture
   2:
     media:
     - length: 00:07:57
@@ -47,6 +49,7 @@ materials:
       type: ppt
     section: IaaS
     topic: Implementation Levels
+    type: lecture
   3:
     media:
     - length: 00:07:32
@@ -63,6 +66,7 @@ materials:
       type: ppt
     section: IaaS
     topic: Tools and Mechanisms
+    type: lecture
   4:
     media:
     - length: 00:06:41
@@ -79,6 +83,7 @@ materials:
       type: ppt
     section: IaaS
     topic: CPU, Memory \& I/O Devices
+    type: lecture
   5:
     media:
     - length: 00:05:07
@@ -95,6 +100,7 @@ materials:
       type: ppt
     section: IaaS
     topic: Clusters and Resource Management
+    type: lecture
   6:
     media:
     - length: 00:03:30
@@ -111,6 +117,7 @@ materials:
       type: ppt
     section: IaaS
     topic: Data Center Automation
+    type: lecture
   7:
     media:
     - length: 00:07:13
@@ -123,6 +130,7 @@ materials:
       type: pdf
     section: IaaS
     topic: Clouds in the Workplace
+    type: lecture
   8:
     media:
     - length: 00:09:08
@@ -135,6 +143,7 @@ materials:
       type: pdf
     section: IaaS
     topic: Checklists and Challenges
+    type: lecture
   9:
     media:
     - length: 00:07:49
@@ -147,6 +156,7 @@ materials:
       type: pdf
     section: IaaS
     topic: Data Center Setup
+    type: lecture
   10:
     media:
     - length: 00:05:10
@@ -163,3 +173,4 @@ materials:
       type: pdf
     section: IaaS
     topic: Cultivating Clouds
+    type: lecture
