@@ -1,0 +1,165 @@
+materials:
+  0:
+    media:
+    - length: 00:07:45
+      source: https://www.youtube.com/watch?v=j3sUW376pw8
+      topic: Course Expectations
+      type: video
+    - misc: Page 1
+      source: https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k
+      topic: Course Expectations
+      type: pdf
+    - misc: Page 1
+      source: https://drive.google.com/open?id=0B88HKpainTSfb1ZhWG4zTEg0SVk
+      topic: Course Expectations - pptx
+      type: ppt
+    section: IaaS
+    topic: Course Expectations
+  1:
+    media:
+    - length: 00:10:16
+      source: https://www.youtube.com/watch?v=5oKoAPCXLws
+      topic: Growth of Virtual Machines
+      type: video
+    - misc: Page 28
+      source: https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k
+      topic: Growth of Virtual Machines
+      type: pdf
+    - misc: Page 28
+      source: https://drive.google.com/open?id=0B88HKpainTSfb1ZhWG4zTEg0SVk
+      topic: Growth of Virtual Machines - pptx
+      type: ppt
+    section: IaaS
+    topic: Growth of Virtual Machines
+  2:
+    media:
+    - length: 00:07:57
+      source: https://www.youtube.com/watch?v=Le-kv-eAhvg
+      topic: Implementation Levels
+      type: video
+    - misc: Page 41
+      source: https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k
+      topic: Implementation Levels
+      type: pdf
+    - misc: Page 41
+      source: https://drive.google.com/open?id=0B88HKpainTSfb1ZhWG4zTEg0SVk
+      topic: Implementation Levels - pptx
+      type: ppt
+    section: IaaS
+    topic: Implementation Levels
+  3:
+    media:
+    - length: 00:07:32
+      source: https://www.youtube.com/watch?v=VYz5rp5HDVE
+      topic: Tools and Mechanisms
+      type: video
+    - misc: Page 47
+      source: https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k
+      topic: Tools and Mechanisms
+      type: pdf
+    - misc: Page 47
+      source: https://drive.google.com/open?id=0B88HKpainTSfb1ZhWG4zTEg0SVk
+      topic: Tools and Mechanisms - pptx
+      type: ppt
+    section: IaaS
+    topic: Tools and Mechanisms
+  4:
+    media:
+    - length: 00:06:41
+      source: https://www.youtube.com/watch?v=I_J4eUUavSY
+      topic: CPU, Memory \& I/O Devices
+      type: video
+    - misc: Page 58
+      source: https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k
+      topic: CPU, Memory \& I/O Devices
+      type: pdf
+    - misc: Page 58
+      source: https://drive.google.com/open?id=0B88HKpainTSfb1ZhWG4zTEg0SVk
+      topic: CPU, Memory \& I/O Devices - pptx
+      type: ppt
+    section: IaaS
+    topic: CPU, Memory \& I/O Devices
+  5:
+    media:
+    - length: 00:05:07
+      source: https://www.youtube.com/watch?v=Mn9pgGtFy4g
+      topic: Clusters and Resource Management
+      type: video
+    - misc: Page 66
+      source: https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k
+      topic: Clusters and Resource Management
+      type: pdf
+    - misc: Page 66
+      source: https://drive.google.com/open?id=0B88HKpainTSfb1ZhWG4zTEg0SVk
+      topic: Clusters and Resource Management - pptx
+      type: ppt
+    section: IaaS
+    topic: Clusters and Resource Management
+  6:
+    media:
+    - length: 00:03:30
+      source: https://www.youtube.com/watch?v=mvXBRvTwAVg
+      topic: Data Center Automation
+      type: video
+    - misc: Page 74
+      source: https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k
+      topic: Data Center Automation
+      type: pdf
+    - misc: Page 74
+      source: https://drive.google.com/open?id=0B88HKpainTSfb1ZhWG4zTEg0SVk
+      topic: Data Center Automation - pptx
+      type: ppt
+    section: IaaS
+    topic: Data Center Automation
+  7:
+    media:
+    - length: 00:07:13
+      source: https://www.youtube.com/watch?v=Endt6mWUfEo
+      topic: Clouds in the Workplace
+      type: video
+    - misc: Page 1
+      source: https://drive.google.com/open?id=1kkTi8YXMR7cPR-9nWgnj9UgkXm4rUfHm
+      topic: Clouds in the Workplace
+      type: pdf
+    section: IaaS
+    topic: Clouds in the Workplace
+  8:
+    media:
+    - length: 00:09:08
+      source: https://www.youtube.com/watch?v=cwtWpZcWuQ0
+      topic: Checklists and Challenges
+      type: video
+    - misc: Page 11
+      source: https://drive.google.com/open?id=1kkTi8YXMR7cPR-9nWgnj9UgkXm4rUfHm
+      topic: Checklists and Challenges
+      type: pdf
+    section: IaaS
+    topic: Checklists and Challenges
+  9:
+    media:
+    - length: 00:07:49
+      source: https://www.youtube.com/watch?v=zBVtXzqF2ew
+      topic: Data Center Setup
+      type: video
+    - misc: Page 16
+      source: https://drive.google.com/open?id=1kkTi8YXMR7cPR-9nWgnj9UgkXm4rUfHm
+      topic: Data Center Setup
+      type: pdf
+    section: IaaS
+    topic: Data Center Setup
+  10:
+    media:
+    - length: 00:05:10
+      source: https://www.youtube.com/watch?v=zxoqRdvXM28
+      topic: Cultivating Clouds
+      type: video
+    - misc: Page 15
+      source: https://drive.google.com/open?id=1tTiWbi5_elBXmB--wMiCCB-3KtJa50AP
+      topic: Cultivating Clouds
+      type: pdf
+    - misc: Page 1
+      source: https://drive.google.com/open?id=15ofQSh3-BQNzTeycnEgKh5UXqGR3YMiz
+      topic: Cultivating Clouds - Conclusions
+      type: pdf
+    section: IaaS
+    topic: Cultivating Clouds
