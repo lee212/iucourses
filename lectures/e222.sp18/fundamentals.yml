@@ -1,0 +1,274 @@
+materials:
+  0:
+    media:
+    - length: 00:14:48
+      source: https://drive.google.com/open?id=16gPOZ7EK6iaac2B-9KbM3OHITqHT8YxG
+      topic: Introduction - Part A
+      type: video
+    - misc: 7 Slides
+      source: https://drive.google.com/open?id=17_voZxBdqiLicJKzroQ2DzjW4zvp0VYb
+      topic: Introduction - Part A
+      type: pdf
+    section: Fundamentals
+    topic: Introduction - Part A
+    type: lecture
+  1:
+    media:
+    - length: 00:20:22
+      source: https://drive.google.com/open?id=1iGv6GG2b2th_RL3kQX6P04Y0AyuUxQcj
+      topic: Part B - Defining Clouds I
+      type: video
+    - misc: 13 Slides
+      source: https://drive.google.com/open?id=1SJZblEkhjgQBCDaDSiSCaXTLVPx_X8m4
+      topic: Part B - Defining Clouds I
+      type: pdf
+    section: Fundamentals
+    topic: Part B - Defining Clouds I
+    type: lecture
+  2:
+    media:
+    - length: 00:20:45
+      source: https://drive.google.com/open?id=1nU9HlqDe_vEZR1MlOq2XibnoHmaygo-H
+      topic: Part C - Defining Clouds II
+      type: video
+    - misc: 11 Slides
+      source: https://drive.google.com/open?id=1Thg2yOnKBQKdndgdItpviGw0hhxjY2K2
+      topic: Part C - Defining Clouds II
+      type: pdf
+    section: Fundamentals
+    topic: Part C - Defining Clouds II
+    type: lecture
+  3:
+    media:
+    - length: 00:09:08
+      source: https://drive.google.com/open?id=1Qayxfwuc_qSeCzaIpHj3-F0N7TONvM5L
+      topic: Part D - Defining Clouds III
+      type: video
+    - misc: 9 Slides
+      source: https://drive.google.com/open?id=1EsHbUn7xdjTrLXmY8HCIhZqLaWeODD_1
+      topic: Part D - Defining Clouds III
+      type: pdf
+    section: Fundamentals
+    topic: Part D - Defining Clouds III
+    type: lecture
+  4:
+    media:
+    - length: 00:11:21
+      source: https://drive.google.com/open?id=1EC-eOYuBOV1qMojSg4Mg50doPqjAY0Hr
+      topic: Part E - Virtualization
+      type: video
+    - misc: 8 Slides
+      source: https://drive.google.com/open?id=1K3RzVlfiwZAqwhCPxNEP8Q1JNxyOZhrv
+      topic: Part E - Virtualization
+      type: pdf
+    section: Fundamentals
+    topic: Part E - Virtualization
+    type: lecture
+  5:
+    media:
+    - length: 00:13:41
+      source: https://drive.google.com/open?id=1_M0HDemFmykAq4iPuQ0MHYIW0kffHuMa
+      topic: Part F - Technology Hypecycle I
+      type: video
+    - misc: 11 Slides
+      source: https://drive.google.com/open?id=18deLUm2zGlHcHHbyVhecwSf52RHAq9VT
+      topic: Part F - Technology Hypecycle I
+      type: pdf
+    section: Fundamentals
+    topic: Part F - Technology Hypecycle I
+    type: lecture
+  6:
+    media:
+    - length: 00:16:05
+      source: https://drive.google.com/open?id=19k6os58_OCCsmbusWQ6z6n9hwVmmd163
+      topic: Part G - Technology Hypecycle II
+      type: video
+    - misc: 15 Slides
+      source: https://drive.google.com/open?id=1ZD-h-dmQgAFROBEI1KMJROTxPVPAJ_P_
+      topic: Part G - Technology Hypecycle II
+      type: pdf
+    section: Fundamentals
+    topic: Part G - Technology Hypecycle II
+    type: lecture
+  7:
+    media:
+    - length: 00:13:22
+      source: https://drive.google.com/open?id=1_lH7ou_UQOMMfdSSQLrqZr8yJZIr7rC0
+      topic: Part H - IaaS I
+      type: video
+    - misc: 12 Slides
+      source: https://drive.google.com/open?id=1WOlwFtHNvFSaQX9WAXBwO2q1qsvBM6Yd
+      topic: Part H - IaaS I
+      type: pdf
+    section: Fundamentals
+    topic: Part H - IaaS I
+    type: lecture
+  8:
+    media:
+    - length: 00:13:13
+      source: https://drive.google.com/open?id=1UwBzSKK-iHYW7aRCS_f4BoXNYxUb476i
+      topic: Part I - IaaS II
+      type: video
+    - misc: 11 Slides
+      source: https://drive.google.com/open?id=1_1fL2L-tpjlL7og49XDxH_HLPD6Tupik
+      topic: Part I - IaaS II
+      type: pdf
+    section: Fundamentals
+    topic: Part I - IaaS II
+    type: lecture
+  9:
+    media:
+    - length: 00:37:56
+      source: https://drive.google.com/open?id=1tasT1lJE_7pwowuk0D68M7rgW1gtv3im
+      topic: Part J - Cloud Software
+      type: video
+    - misc: 15 Slides
+      source: https://drive.google.com/open?id=1DKshrkb2bMOt5p0H2YDkOZhekAFIx5nJ
+      topic: Part J - Cloud Software
+      type: pdf
+    section: Fundamentals
+    topic: Part J - Cloud Software
+    type: lecture
+  10:
+    media:
+    - length: 00:11:58
+      source: https://drive.google.com/open?id=1BzpXNqs3Ai_QlSsjxSV6Q3FevZt1BPj-
+      topic: Part K - Applications I
+      type: video
+    - misc: 16 Slides
+      source: https://drive.google.com/open?id=1dQbzoVwDoqqnwSO8eHmu_WfiU2FVXtLL
+      topic: Part K - Applications I
+      type: pdf
+    section: Fundamentals
+    topic: Part K - Applications I
+    type: lecture
+  11:
+    media:
+    - length: 00:13:03
+      source: https://drive.google.com/open?id=1pIjcar6SZSelWiR6dv4lhnsmweDarNXR
+      topic: Part L - Applications II
+      type: video
+    - misc: 11 Slides
+      source: https://drive.google.com/open?id=10bAckYz455Yd5tqDGpwkMZUmDn9FKl0n
+      topic: Part L - Applications II
+      type: pdf
+    section: Fundamentals
+    topic: Part L - Applications II
+    type: lecture
+  12:
+    media:
+    - length: 00:24:12
+      source: https://drive.google.com/open?id=16rb0zZafTLoYhT638qc4IRorOk5qgRP-
+      topic: Part M - Applications III
+      type: video
+    - misc: 14 Slides
+      source: https://drive.google.com/open?id=1TPgbfK6PhWjyr3u115Pq4jTPNPo2JU70
+      topic: Part M - Applications III
+      type: pdf
+    section: Fundamentals
+    topic: Part M - Applications III
+    type: lecture
+  13:
+    media:
+    - length: 00:35:46
+      source: https://drive.google.com/open?id=1apuvCaKlQBZp8FjvqN9It5bJhfXmf1kg
+      topic: Part N - Parallelism
+      type: video
+    - misc: 15 Slides
+      source: https://drive.google.com/open?id=1lBmpMry2FXwEjf93EMJPNDpw_G-yUcI1
+      topic: Part N - Parallelism
+      type: pdf
+    section: Fundamentals
+    topic: Part N - Parallelism
+    type: lecture
+  14:
+    media:
+    - length: 00:19:22
+      source: https://drive.google.com/open?id=1_A51jrlzKYKhQvefXbJPs0J4GiCCQ1et
+      topic: Part O - Storage
+      type: video
+    - misc: 10 Slides
+      source: https://drive.google.com/open?id=1JvIK-J4HUSvexmNKbBV_fdN8xvGBylR2
+      topic: Part O - Storage
+      type: pdf
+    section: Fundamentals
+    topic: Part O - Storage
+    type: lecture
+  15:
+    media:
+    - length: 00:19:29
+      source: https://drive.google.com/open?id=1u5z9-GY1Hecp8nR47Gxe8506NnhHduF1
+      topic: Part P - HPC in the Clou
+      type: video
+    - misc: 8 Slides
+      source: https://drive.google.com/open?id=1ECR-m-pgW_7JnNDJ9ZLDYpicRrtxawwF
+      topic: Part P - HPC in the Clou
+      type: pdf
+    section: Fundamentals
+    topic: Part P - HPC in the Clou
+    type: lecture
+  16:
+    media:
+    - length: 00:16:19
+      source: https://drive.google.com/open?id=1vmtpndTlmtV4DzUtl04_nWo9DCR84mIM
+      topic: Part Q - Analytics and Simulation
+      type: video
+    - misc: 10 Slides
+      source: https://drive.google.com/open?id=1u_rugpZg6m2x0B7r4kifEUxMej71-wMh
+      topic: Part Q - Analytics and Simulation
+      type: pdf
+    section: Fundamentals
+    topic: Part Q - Analytics and Simulation
+    type: lecture
+  17:
+    media:
+    - length: 00:04:52
+      source: https://drive.google.com/open?id=1JMNPLdbS81Hfi5P7irDUy7kna35jpU6j
+      topic: Part R - Jobs
+      type: video
+    - misc: 6 Slides
+      source: https://drive.google.com/open?id=1Sev0VF7tDZo4Oxa_ghk6b4YhE4iTPkhE
+      topic: Part R - Jobs
+      type: pdf
+    section: Fundamentals
+    topic: Part R - Jobs
+    type: lecture
+  18:
+    media:
+    - length: 00:19:46
+      source: https://drive.google.com/open?id=1kgbrDiDNj0DKYi_ICvOXYeFZ32R1JH2_
+      topic: Part S - The Future
+      type: video
+    - misc: 6 Slides
+      source: https://drive.google.com/open?id=1_LdE64DJqSKI7EmMbSsppHMO6KU4q4Sl
+      topic: Part S - The Future
+      type: pdf
+    section: Fundamentals
+    topic: Part S - The Future
+    type: lecture
+  19:
+    media:
+    - length: 00:11:29
+      source: https://drive.google.com/open?id=1TQsCuR-2C6D_OJeJH818WO5-OBrA8Spo
+      topic: Part T - Security
+      type: video
+    - misc: 13 Slides
+      source: https://drive.google.com/open?id=1fVelFbLaUbNXMGS6ENRn4QHLzFitAyUD
+      topic: Part T - Security
+      type: pdf
+    section: Fundamentals
+    topic: Part T - Security
+    type: lecture
+  20:
+    media:
+    - length: 00:09:10
+      source: https://drive.google.com/open?id=1jRpkdGCT-sQRb6pOGrW-qG58A_HYfr9W
+      topic: Part U - Fault Tolerance
+      type: video
+    - misc: 5 Slides
+      source: https://drive.google.com/open?id=1cR9YLcrtUMKINRFNMbdVre8Ydfa-lvAj
+      topic: Part U - Fault Tolerance
+      type: pdf
+    section: Fundamentals
+    topic: Part U - Fault Tolerance
+    type: lecture
