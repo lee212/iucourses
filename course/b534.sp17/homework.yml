@@ -1,0 +1,77 @@
+materials:
+        0:
+                topic: Cloud System Components
+                type: assignment
+                media:
+
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfQ2FrUzdKRkM5X0U
+                          topic: Cloud System Components
+                          type: ppt
+        1:
+                topic: Basic Statistics with Hadoop
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfWi1Ua1FobjhjVEE
+                          topic: Basic Statistics with Hadoop
+                          type: pdf
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfcUlZX3BpV05TRDg
+                          topic: Basic Statistics with Hadoop
+                          type: txt
+                          misc: input data
+        2:
+                topic: Hadoop PageRank
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfVHpyLUdHdW5aTHM
+                          topic: Hadoop PageRank
+                          type: pdf
+        3:
+                topic: Hadoop Blast
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfOXBmazZaWlVzY1U
+                          topic: Hadoop Blast
+                          type: pdf
+        4:
+                topic: HBase WordCount
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfY2VVQXVETkVxWm8
+                          topic: HBase WordCount
+                          type: pdf
+                          misc: prerequisite
+        5:
+                topic: HBase WordCount
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfLV9mMmNFbVhMMnM
+                          topic: HBase WordCount
+                          type: pdf
+        6:
+                topic: HBase FreqIndexBuilder
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfX0M1R2tQWGo2ZUk
+                          topic: HBase FreqIndexBuilder
+                          type: pdf
+        7:
+                topic: Test Search Engine
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfSGR2eU13RTRXcHM
+                          topic: Test Search Engine
+                          type: pdf
+        8:
+                topic: Harp PageRank
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfdkRneUE3YWxRalk
+                          topic: Harp PageRank
+                          type: pdf
+        9:
+                topic: Harp MiniBatch Kmeans
+                type: assignment
+                media:
+                        - source: https://drive.google.com/open?id=0B88HKpainTSfazhpcGw5dVVxZ3M
+                          topic: Harp MiniBatch Kmeans
+                          type: pdf

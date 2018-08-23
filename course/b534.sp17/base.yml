@@ -6,3 +6,6 @@ course_number: B534
 
 lectures:
         - iaas.yml
+
+assignments:
+        - homework.yml

@@ -36,7 +36,7 @@ class generateRST(object):
             ymldata = yaml.load(f)
         return ymldata
 
-    def load_lectures(self):
+    def load_course(self):
         base = os.path.join(self.args.directory, self.base_info)
         with open(base) as f:
             bdata = yaml.load(f)
@@ -44,22 +44,24 @@ class generateRST(object):
         bdata['title'] = "{} ({},{})".format(bdata['title'],
                 bdata['course_number'], bdata['semester'])
 
-        mlist = bdata['lectures']
+        bdata['lectures'] = self._load_materials(bdata['lectures'])
+        bdata['assignments'] = self._load_materials(bdata['assignments'])
+        return bdata
+
+    def _load_materials(self, mlist):
         mdata = []
         for fname in mlist:
             fpath = os.path.join(self.args.directory, fname)
             mdata.append(self.load_yaml(fpath))
 
         # Special case
-        # Reorder
         ndata = {}
         nidx = 0
         for m in mdata:
             for k, entry in m['materials'].items():
                 ndata[nidx] = entry
                 nidx += 1
-        bdata['lectures'] = ndata
-        return bdata
+        return ndata
 
     def gen_table(self, title=None, header=None, options=None):
         res = ".. list-table:: %(title)s\n" + \
@@ -98,7 +100,10 @@ class generateRST(object):
         else:
             if 'lectures' in self.ymldata:
                 lectures = self._render_materials(self.ymldata['lectures'])
-        materials = lectures 
+            if 'assignments' in self.ymldata:
+                assignments = self._render_materials(self.ymldata['assignments'])
+
+        materials = lectures + assignments
         return materials
 
     def _render_materials(self, materials):
@@ -118,15 +123,20 @@ class generateRST(object):
                     if header == "media" and isinstance(val, list):
                         nvals = ""
                         for item in val:
+                            extra = ""
                             if item['type'] == "video":
                                 nvals += "`Play ({}) <{}>`_ | ".format( 
                                         item['length'], item['source'])
                             elif item['type'] == "pdf":
-                                nvals += "`PDF ({}) <{}>`_ | ".format(
-                                        item['misc'], item['source'])
+                                if 'misc' in item:
+                                    extra = "({})".format(item['misc'])
+                                nvals += "`PDF {} <{}>`_ | ".format(
+                                        extra, item['source'])
                             elif item['type'] == "ppt":
-                                nvals += "`PPT ({}) <{}>`_ | ".format(
-                                        item['misc'], item['source'])
+                                if 'misc' in item:
+                                    extra = "({})".format(item['misc'])
+                                nvals += "`PPT {} <{}>`_ | ".format(
+                                        extra, item['source'])
                         if nvals[-2:] == "| ":
                             nvals = nvals[:-2]
                         val = nvals
@@ -148,7 +158,7 @@ if __name__ == "__main__":
                 options = { "widths": "30 10 10 10 10 10" ,
                     "header-rows": 1})
     elif args.directory:
-        ymldata = rstgen.load_lectures()
+        ymldata = rstgen.load_course()
         rstgen.ymldata = ymldata
         rstgen.gen_table(header=["topic", "media", "section", "type"], 
                 options = { "widths": "30 10 10 10", 
