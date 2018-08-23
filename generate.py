@@ -122,9 +122,11 @@ class generateRST(object):
                                 nvals += "`Play ({}) <{}>`_ | ".format( 
                                         item['length'], item['source'])
                             elif item['type'] == "pdf":
-                                nvals += "`PDF <{}>`_ | ".format(item['source'])
+                                nvals += "`PDF ({}) <{}>`_ | ".format(
+                                        item['misc'], item['source'])
                             elif item['type'] == "ppt":
-                                nvals += "`PPT <{}>`_ | ".format(item['source'])
+                                nvals += "`PPT ({}) <{}>`_ | ".format(
+                                        item['misc'], item['source'])
                         if nvals[-2:] == "| ":
                             nvals = nvals[:-2]
                         val = nvals
