@@ -150,7 +150,7 @@ if __name__ == "__main__":
     elif args.directory:
         ymldata = rstgen.load_lectures()
         rstgen.ymldata = ymldata
-        rstgen.gen_table(header=["topic", "media", "type"], 
-                options = { "widths": "30 10 10", 
+        rstgen.gen_table(header=["topic", "media", "section", "type"], 
+                options = { "widths": "30 10 10 10", 
                     "header-rows": 1})
 
