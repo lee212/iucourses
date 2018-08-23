@@ -1,4 +1,4 @@
-.. list-table:: Cloud Computing
+.. list-table:: Cloud Computing (B534,spring 2017)
    :widths: 30 10 10
    :header-rows: 1
 

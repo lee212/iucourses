@@ -41,9 +41,9 @@ class generateRST(object):
         with open(base) as f:
             bdata = yaml.load(f)
 
-        c_title = bdata['title']
-        c_semester = bdata['semester']
-        c_number = bdata['course_number']
+        bdata['title'] = "{} ({},{})".format(bdata['title'],
+                bdata['course_number'], bdata['semester'])
+
         mlist = bdata['lectures']
         mdata = []
         for fname in mlist:
